@@ -103,7 +103,7 @@ class JobItemDetails extends Component {
               className="companyLogo"
             />
             <div className="ratingContainer">
-              <p className="jobTitle">{title}</p>
+              <h1 className="jobTitle">{title}</h1>
               <div className="jobRating">
                 <AiTwotoneStar className="star-logo" />
                 <p className="rating">{rating}</p>
