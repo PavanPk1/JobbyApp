@@ -18,7 +18,7 @@ const JobsCard = props => {
     jobDescription,
   } = jobData
   return (
-    <Link to={`jobs/${id}`} className="eachJob-link-option">
+    <Link to={`/jobs/${id}`} className="eachJob-link-option">
       <li className="jobList">
         <div className="jobList-section1">
           <img
